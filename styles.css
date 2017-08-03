@@ -1,0 +1,38 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4%;
+  align-items: center;
+
+}
+
+h1{
+  font-family: ;
+  text-transform: UPPERCASE;
+
+}
+
+
+.people_container{
+  display: flex;
+  /*flex-wrap: wrap; this is counter productive*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  /*grid-template-columns: 20vw 20vw 20vw 20vw;*/
+  margin: auto;
+}
+
+.unique_person{
+  /*justify-content: center; << not acitve at the moment*/
+  display: inline;
+  text-align: center;
+  width: 20%;
+}
+
+.name{
+  text-transform: UPPERCASE;
+  text-decoration: underline #57AF82;
+}
